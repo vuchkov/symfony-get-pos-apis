@@ -1,4 +1,5 @@
 <?php
+
 namespace App;
 
 //use App\CommandHandler\BarHandler;
@@ -16,6 +17,7 @@ class CommandBus implements ServiceSubscriberInterface
 
     public static function getSubscribedServices(): array
     {
+//        return array_merge(parent::getSubscribedServices(), [
         return [
 //            'App\FooCommand' => FooHandler::class,
 //            'App\BarCommand' => BarHandler::class,
