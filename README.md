@@ -7,6 +7,9 @@
 - Load and consume multiple external POS APIs data - Orders, 
 on a timetable basis (intervals).
 
+## Updates
+- Install Barsy PHP library: https://docs.lukanet.com/barsy.api/usage/barsy_api_client.html
+
 ## Resources
 - https://github.com/symfony/symfony/blob/7.1/src/Symfony/Component/Console/Command/Command.php
 - https://symfony.com/doc/current/console.html & https://symfony.com/doc/current/console/input.html

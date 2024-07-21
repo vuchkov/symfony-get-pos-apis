@@ -4,8 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c877c1cd8d9923a4cfc16b46e5364a22",
+    "content-hash": "af06154978a88447f5fed8dc872602f9",
     "packages": [
+        {
+            "name": "lukanet/barsy-api-client",
+            "version": "1.0.174",
+            "dist": {
+                "type": "zip",
+                "url": "https://docs.lukanet.com/downloads/barsy-api-client-1.0.174.zip"
+            },
+            "require": {
+                "php": "^7.4|^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Lukanet\\BarsyApiClient\\": "src/"
+                }
+            }
+        },
         {
             "name": "psr/cache",
             "version": "3.0.0",
